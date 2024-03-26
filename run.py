@@ -48,3 +48,9 @@ for href in hrefs:
 
     if href.startswith('23/'): # Only interested in 23c documentation, at the moment!
        download_pdfs(href)
+
+#
+#  Additional files
+#  Can the link to these be extracted automatically?
+
+download_file('https://docs.oracle.com/en/database/oracle/sql-developer-command-line/23.4/sqcug/oracle-sqlcl-users-guide.pdf')
