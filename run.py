@@ -51,6 +51,8 @@ for href in hrefs:
 
 #
 #  Additional files
-#  Can the link to these be extracted automatically?
-
+#  Can the link to the most current version extracted from
+#     https://docs.oracle.com/en/database/oracle/sql-developer-command-line/index.html
+#  automatically?
+#
 download_file('https://docs.oracle.com/en/database/oracle/sql-developer-command-line/23.4/sqcug/oracle-sqlcl-users-guide.pdf')
